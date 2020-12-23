@@ -1,0 +1,6 @@
+POST http://localhost:5000/api/url/shorten
+Content-Type: application/json
+
+{
+    "longUrl":"https://www.amazon.in/Call-Duty-Black-Gold-Playstation/dp/B071G7GFBD/ref=sxin_9_sxwds-deals-bau?cv_ct_cx=playstation&dchild=1&keywords=playstation&pd_rd_i=B071G7GFBD&pd_rd_r=f7bfff2d-fa13-468a-ac90-a85383d883f6&pd_rd_w=CkDCa&pd_rd_wg=E5YwA&pf_rd_p=3651aa93-9e7e-470e-b04b-2242c72a4942&pf_rd_r=MTTC19TY6EK3AHSTG90M&psc=1&qid=1606644043&sr=1-2-52097d59-f253-4553-be63-55323b14096b"
+}
