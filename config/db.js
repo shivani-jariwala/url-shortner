@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const config = require('config');
-const db = config.get('mongoURI'); //config.get method helps us to get the global variable name mongoURI from the dafault.json file 
+require('dotenv').config()
+const db = process.env.mongoURI;
+//const db = config.get('mongoURI'); //config.get method helps us to get the global variable name mongoURI from the dafault.json file 
 
 const connectDB = async()=>{
     try {
